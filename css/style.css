@@ -1,15 +1,15 @@
 body {
+    padding: 0;
+    margin: 0;
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #333333;
-    margin: 0;
-    padding: 0;
+    font-size: 15px;
+    line-height: 150%;
+    color: #333333
 }
 
 header {
     background-color: #333333;
-    width: 1024px;
-    margin: 0 auto;
 }
 
 h1 {
@@ -17,12 +17,13 @@ h1 {
     font-size: 28px;
     margin: 30px;
     padding: 30px;
+    margin: 0;
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 24px;
-    margin: 10px;
+    margin: 30px;
     margin-left: 35px;
 }
 
@@ -34,7 +35,6 @@ h2{
 #main-bio {
     float: left;
     width: 70%;
-    line-height: 20px;
 }
 
 #contact-info {
